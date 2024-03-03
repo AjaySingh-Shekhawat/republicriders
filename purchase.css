@@ -1,0 +1,133 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.section3 {
+  display: flex;
+  margin-top: 300px;
+  margin-left: 300px;
+  text-align: left;
+}
+
+.option-two {
+  display: inline;
+  margin-top: 100px;
+}
+
+.option-three {
+  display: inline;
+  /* width: 450px;
+  height: 50px;
+  font-size: 36px; */
+}
+
+.country {
+  margin-bottom: 30px;
+  margin-left: 150px;
+  width: 450px;
+  height: 50px;
+  font-size: 28px;
+  font-weight: 700;
+  background-color: #74c0fc;
+  border-color: antiquewhite;
+  transform: rotate(-7deg);
+  border-radius: 10px;
+  text-align: end;
+}
+.country:hover {
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+  transform: scale(1.05);
+  border-color: #da77f2;
+}
+.playstn {
+  margin-bottom: 30px;
+  margin-left: 150px;
+  width: 450px;
+  height: 50px;
+  font-size: 28px;
+  font-weight: 700;
+  background-color: #74c0fc;
+  border-color: antiquewhite;
+  transform: rotate(7deg);
+  border-radius: 10px;
+}
+.playstn:hover {
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+  transform: scale(1.05);
+  border-color: #da77f2;
+}
+.editions {
+  /* margin-top: 20px; */
+  margin-left: 150px;
+  width: 450px;
+  height: 50px;
+  font-size: 28px;
+  font-weight: 700;
+  background-color: #74c0fc;
+  border-color: antiquewhite;
+  transform: rotate(-7deg);
+  border-radius: 10px;
+  text-align: end;
+}
+.editions:hover {
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+  transform: scale(1.05);
+  border-color: #da77f2;
+  /* transform: rotate(7deg); */
+}
+button {
+  font-size: 36px;
+  font-weight: 700;
+  height: 50px;
+  width: 450px;
+  margin-top: 70px;
+  margin-left: 121px;
+  background-color: #f59f00;
+  color: #fff;
+  border-color: antiquewhite;
+  border-radius: 10px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #333;
+  /* background-color: #74c0fc; */
+  color: #fff;
+  /* color: #000; */
+  transform: scale(1.05);
+  border-color: #da77f2;
+  transform: rotate(-7deg);
+}
+.footer {
+  background-color: black;
+  margin-top: 150px;
+}
+
+.footer-all {
+  display: flex;
+}
+
+/* .footer-two{
+  display: flex;
+} */
+
+.footer-six,
+a {
+  /* display: flex; */
+  font-size: 18px;
+  /* justify-content: space-between; */
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  margin: 30px;
+}
+.footer-para {
+  font-size: 14px;
+  color: #fff;
+}
